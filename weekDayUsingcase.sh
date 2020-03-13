@@ -9,22 +9,25 @@ case $day in
 				echo Sunday
 				;;
 		2)
-      		echo Monday
+				echo Monday
 				;;
 		3)
 				echo Tuesday
 				;;
 		4)
-      		echo Wednesday
+				echo Wednesday
 				;;
 		5)
-      		echo Thursday
+				echo Thursday
 				;;
 		6)
 				echo Friday
 				;;
 		7)
 				echo Saturday
+				;;
+		*)
+				echo Invalid Input
 				;;
 esac
 
